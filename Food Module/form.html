@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order Form</title>
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url("images/cover.jpg");
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            width: 400px;
+        }
+        h2 {
+            text-align: center;
+            color: #0f3959;
+        }
+        .inputBox {
+            margin-bottom: 15px;
+        }
+        .inputBox span {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: #333;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        textarea {
+            resize: none;
+            height: 80px;
+        }
+        input[type="submit"] {
+            background: #095a55;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        input[type="submit"]:hover {
+            background: #0d9480;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h2>Food Order Form</h2>
+            <form id="orderForm">
+                <div class="inputBox">
+                    <span>Customer Name</span>
+                    <input type="text" id="customerName" required>
+                </div>
+                <div class="inputBox">
+                    <span>Email Address</span>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="inputBox">
+                    <span>Mobile Number</span>
+                    <input type="text" id="mobileNumber" required>
+                </div>
+                <div class="inputBox">
+                    <span>Room No</span>
+                    <input type="text" id="roomNo" required>
+                </div>
+                <div class="inputBox">
+                    <span>Select Food Item</span>
+                    <select id="foodItem" required>
+                        <option value="">-- Select Food --</option>
+                        <option value="Samosa">Samosa</option>
+                        <option value="Burger">Burger</option>
+                        <option value="Vada Pav">Vada Pav</option>
+                        <option value="Sandwich">Sandwich</option>
+                        <option value="Pizza">Pizza</option>
+                        <option value="Poha">Poha</option>
+                        <option value="Biryani">Biryani</option>
+                        <option value="Pav Baji">Vada Pav</option>
+                        <option value="Paneer">Paneer</option>
+                        <option value="Egg Curry">Egg Curry -₹100</option>
+                        
+                    </select>
+                </div>
+                <div class="inputBox">
+                    <span>Special Instructions</span>
+                    <textarea id="specialInstructions"></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Order Now">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById("orderForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent page reload
+
+            let name = document.getElementById("customerName").value;
+            let email = document.getElementById("email").value;
+            let mobile = document.getElementById("mobileNumber").value;
+            let room = document.getElementById("roomNo").value;
+            let food = document.getElementById("foodItem").value;
+            let instructions = document.getElementById("specialInstructions").value;
+
+            if (!food) {
+                alert("Please select a food item.");
+                return;
+            }
+
+            let orderSummary = `
+                Order Confirmed! ✅\n
+                Name: ${name}
+                Email: ${email}
+                Mobile: ${mobile}
+                Room No: ${room}
+                Food Item: ${food}
+                Special Instructions: ${instructions || "None"}
+                \nThank you for your order! 🍽️
+            `;
+            
+            alert(orderSummary);
+            document.getElementById("orderForm").reset();
+        });
+    </script>
+</body>
+</html>

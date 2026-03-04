@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breakfast</title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Playfair Display', serif;
+}
+body
+{ 
+  background-image: url("images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:right;
+  background-attachment:fixed;
+}
+#header{
+  margin:20px;
+}
+#header>h1{
+  text-align:center;
+  font-size:3rem;
+}
+#header>p{
+  text-align:center;
+  font-size:1.5rem;
+  font-style:italic;
+}
+.container{
+  width:100vw;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  padding:40px 20px;
+}
+.card{
+  display:flex;
+  flex-direction:column;
+  width:400px;
+  margin-bottom:60px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+.card>div{
+  box-shadow:0 15px 20px 0 rgba(24, 1, 1, 0.5);
+}
+.card-image{
+  width:400px;
+  height:280px;
+}
+.card-image>img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:bottom;
+  border-radius: 10px;
+}
+.card-text{
+  margin:-30px auto;
+  margin-bottom:-50px;
+  height:200px;
+  width:300px;
+  background-color:gray;
+  color:#fff;
+  padding:20px;
+  border-radius: 10px;
+}
+.card-meal-type{
+  font-style:italic;
+}
+.card-title{
+  font-size:2.2rem;
+  margin-bottom:20px;
+  margin-top:5px;
+}
+
+.card-price{
+  width:90px;
+  height:60px;
+  background-color:yellow;
+  color:black;
+  margin-right:auto;
+  font-size:2rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius: 30px;
+}
+.card-button {
+  display: block;
+  width: 80%;
+  margin: 15px auto;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card-button:hover {
+  background: darkred;
+}
+</style>
+<body>
+  <div id="header">
+    <h1>Breakfast</h1>
+    <p></p>
+      </div>
+    <div class="container">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/1.jpg">
+      </div>
+      <div class="card-text">
+        <p class="card-meal-type">Breakfast</p>
+        <h2 class="card-title">Samosa</h2>
+        <a href="form.html">
+          <button class="card-button">Order Now</button>
+        </a>
+      </div>
+      <div class="card-price">₹30</div>
+    </div>
+
+      <div class="card">
+      <div class="card-image">
+        <img src="images/3.jpg">
+      </div>
+      <div class="card-text">
+        <p class="card-meal-type">Breakfast</p>
+        <h2 class="card-title">Burger</h2>
+        <a href="form.html">
+          <button class="card-button">Order Now</button>
+        </a>
+      </div>
+      <div class="card-price">₹200</div>
+    </div>
+
+      <div class="card">
+      <div class="card-image">
+        <img src="images/2.jpg">
+      </div>
+      <div class="card-text">
+        <p class="card-meal-type">Breakfast</p>
+        <h2 class="card-title">Vada Pav </h2>
+        <a href="form.html">
+          <button class="card-button">Order Now</button>
+        </a>
+      </div>
+      <div class="card-price">₹40</div>
+    </div>
+
+      <div class="card">
+      <div class="card-image">
+        <img src="images/4.jpg">
+      </div>
+      <div class="card-text">
+        <p class="card-meal-type">Breakfast</p>
+        <h2 class="card-title">Sandwich</h2>
+        <a href="form.html">
+          <button class="card-button">Order Now</button>
+        </a>
+      </div>
+      <div class="card-price">₹150</div>
+    </div>
+    
+     <div class="card">
+      <div class="card-image">
+        <img src="images/5.jpg">
+      </div>
+      <div class="card-text">
+        <p class="card-meal-type">Breakfast</p>
+        <h2 class="card-title">Pizza</h2>
+        <a href="form.html">
+          <button class="card-button">Order Now</button>
+        </a>
+      </div>
+      <div class="card-price">₹150</div>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="images/6.jpg">
+      </div>
+      <div class="card-text">
+        <p class="card-meal-type">Breakfast</p>
+        <h2 class="card-title">Poha</h2>
+        <a href="form.html">
+          <button class="card-button">Order Now</button>
+        </a>
+      </div>
+      <div class="card-price">₹30</div>
+    </div>
+    </div>
+    </body>
+</html>
