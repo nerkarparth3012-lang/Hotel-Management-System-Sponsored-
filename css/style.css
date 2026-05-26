@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 html, body {
 	height: 100%;
-	font-family: "Cabin", sans-serif;
+	font-family: "Plus Jakarta Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -2299,6 +2301,362 @@ ul, ol {
 	.blog-details-text .comment-option .single-comment-item .sc-text a {
 		margin-bottom: 10px;
 	}
+}
+
+/*--------------------------------------------------------------
+  Atithi Luxury Design System & Premium Overrides (Dark Mode)
+----------------------------------------------------------------*/
+
+body {
+    background: radial-gradient(circle at 50% 0%, #0a0e1c 0%, #04060b 100%) !important;
+    color: #e2e8f0 !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif !important;
+    color: #f8fafc !important;
+}
+
+p {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    color: #94a3b8 !important;
+}
+
+/* Luxury Sections Backgrounds Override */
+.aboutus-section, .services-section, .hp-room-section, .testimonial-section, .footer-section, .rooms-section, .contact-section, .blog-section {
+    background: transparent !important;
+    position: relative !important;
+}
+
+.spad {
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
+}
+
+/* Premium Floating Header */
+.header-section {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    z-index: 1000 !important;
+    transition: all 0.4s ease !important;
+}
+
+/* Adjust main body margin for fixed header */
+body {
+    padding-top: 130px !important;
+}
+
+.top-nav {
+    background: rgba(4, 6, 11, 0.95) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+}
+
+.top-nav .tn-left li, .top-nav .tn-right .top-social a {
+    color: #94a3b8 !important;
+}
+
+.top-nav .tn-left li i {
+    color: #dfa974 !important;
+}
+
+.menu-item {
+    background: rgba(10, 14, 28, 0.75) !important;
+    backdrop-filter: blur(25px) !important;
+    -webkit-backdrop-filter: blur(25px) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+.menu-item .nav-menu .mainmenu li a {
+    color: #e2e8f0 !important;
+}
+
+.menu-item .nav-menu .mainmenu li a:after {
+    background: linear-gradient(90deg, #dfa974, #f3e5ab) !important;
+    height: 3px !important;
+    border-radius: 2px !important;
+}
+
+.menu-item .nav-menu .mainmenu li:hover>a {
+    color: #dfa974 !important;
+}
+
+/* Dropdowns in Header */
+.menu-item .nav-menu .mainmenu li .dropdown {
+    background: rgba(10, 14, 28, 0.95) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4) !important;
+    border-radius: 8px !important;
+    padding: 10px 0 !important;
+}
+
+.menu-item .nav-menu .mainmenu li .dropdown li a {
+    color: #cbd5e1 !important;
+}
+
+.menu-item .nav-menu .mainmenu li .dropdown li a:hover {
+    background: rgba(223, 169, 116, 0.1) !important;
+    color: #dfa974 !important;
+}
+
+/* Hero Section Refinements */
+.hero-section {
+    background: #04060b !important;
+    padding-top: 140px !important;
+    padding-bottom: 160px !important;
+}
+
+.hero-text h1 {
+    font-size: 84px !important;
+    line-height: 96px !important;
+    font-weight: 800 !important;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+    background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #dfa974 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.hero-text p {
+    color: #cbd5e1 !important;
+    font-size: 19px !important;
+    line-height: 30px !important;
+}
+
+.hero-slider .hs-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(6, 9, 19, 0.95) 20%, rgba(6, 9, 19, 0.3) 100%) !important;
+}
+
+/* Premium Gold Gradient Buttons */
+.bk-btn, .primary-btn, .about-btn, .btn-signin {
+    background: linear-gradient(135deg, #dfa974 0%, #a87948 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 6px !important;
+    box-shadow: 0 4px 15px rgba(223, 169, 116, 0.3) !important;
+    font-weight: 700 !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.bk-btn:hover, .primary-btn:hover, .about-btn:hover, .btn-signin:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(223, 169, 116, 0.45) !important;
+    background: linear-gradient(135deg, #f3e5ab 0%, #dfa974 100%) !important;
+    color: #060913 !important;
+}
+
+.primary-btn:after {
+    display: none !important;
+}
+
+/* Section Title */
+.section-title span {
+    color: #dfa974 !important;
+    letter-spacing: 4px !important;
+    font-size: 15px !important;
+}
+
+.section-title h2 {
+    color: #f8fafc !important;
+    font-size: 48px !important;
+}
+
+/* Frosted Glass Services */
+.service-item {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    border-radius: 16px !important;
+    margin-bottom: 30px !important;
+    backdrop-filter: blur(15px) !important;
+    -webkit-backdrop-filter: blur(15px) !important;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+.service-item:hover {
+    background: rgba(223, 169, 116, 0.08) !important;
+    border-color: rgba(223, 169, 116, 0.4) !important;
+    transform: translateY(-8px) !important;
+    box-shadow: 0 20px 40px rgba(223, 169, 116, 0.15), 0 0 0 1px rgba(223, 169, 116, 0.2) !important;
+}
+
+.service-item i {
+    font-size: 48px !important;
+    color: #dfa974 !important;
+}
+
+.service-item h4 {
+    color: #f8fafc !important;
+}
+
+.service-item p {
+    color: #94a3b8 !important;
+}
+
+.service-item:hover p, .service-item:hover h4 {
+    color: #ffffff !important;
+}
+
+/* Room Cards Overhaul */
+.hp-room-items .hp-room-item {
+    border-radius: 20px !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4) !important;
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.hp-room-items .hp-room-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(4, 6, 11, 0.95) 0%, rgba(4, 6, 11, 0.1) 100%) !important;
+    z-index: 1 !important;
+    transition: all 0.5s ease !important;
+}
+
+.hp-room-items .hp-room-item:hover::before {
+    background: linear-gradient(to top, rgba(4, 6, 11, 0.98) 0%, rgba(4, 6, 11, 0.3) 100%) !important;
+}
+
+.hp-room-items .hp-room-item .hr-text {
+    z-index: 2 !important;
+    bottom: -230px !important;
+}
+
+.hp-room-items .hp-room-item:hover .hr-text {
+    bottom: 45px !important;
+}
+
+.hp-room-items .hp-room-item .hr-text h3 {
+    font-weight: 700 !important;
+}
+
+.hp-room-items .hp-room-item .hr-text h2 {
+    color: #dfa974 !important;
+    font-size: 32px !important;
+}
+
+.hp-room-items .hp-room-item .hr-text table tbody tr td {
+    color: #cbd5e1 !important;
+}
+
+/* Glassmorphic Form Fields & nice-select */
+input[type="text"], input[type="password"], input[type="email"], select, textarea {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+    padding: 12px 20px !important;
+    transition: all 0.3s ease !important;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, select:focus, textarea:focus {
+    border-color: #dfa974 !important;
+    box-shadow: 0 0 15px rgba(223, 169, 116, 0.25) !important;
+    background: rgba(255, 255, 255, 0.06) !important;
+}
+
+.nice-select {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+}
+
+.nice-select span {
+    color: #ffffff !important;
+}
+
+.nice-select .list {
+    background: #0b0f19 !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+}
+
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+    background: rgba(223, 169, 116, 0.2) !important;
+    color: #dfa974 !important;
+}
+
+/* Luxury Glass Cards for Booking Form & Login */
+.booking-form, .card-container {
+    background: rgba(11, 15, 28, 0.65) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 20px !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3) !important;
+    padding: 40px !important;
+}
+
+.booking-form h3, .form-signin label {
+    color: #f8fafc !important;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    background: radial-gradient(circle, rgba(223, 169, 116, 0.03) 0%, rgba(0,0,0,0) 80%) !important;
+}
+
+.testimonial-slider .ts-item p {
+    color: #cbd5e1 !important;
+    font-size: 22px !important;
+    line-height: 36px !important;
+    font-style: italic !important;
+}
+
+.testimonial-slider .ts-item h5 {
+    color: #dfa974 !important;
+    font-weight: 700 !important;
+}
+
+/* Footer Overhaul */
+.footer-section {
+    background: #030509 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.04) !important;
+    padding-top: 80px !important;
+    padding-bottom: 40px !important;
+}
+
+.footer-text .ft-about p {
+    color: #94a3b8 !important;
+}
+
+.footer-text .ft-contact h6, .footer-text .ft-newslatter h6 {
+    color: #dfa974 !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+
+.footer-text .ft-contact ul li {
+    color: #cbd5e1 !important;
+}
+
+/* General Layout Responsive fixes */
+@media only screen and (max-width: 991px) {
+    body {
+        padding-top: 80px !important;
+    }
+    .header-section {
+        position: relative !important;
+    }
+    .canvas-open i {
+        color: #ffffff !important;
+    }
 }
 
 /* Dashborad css */
