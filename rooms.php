@@ -23,18 +23,18 @@ require ("header.php");
         <nav class="mainmenu mobile-menu">
             <ul>
                 <li><a href="./index.php">Home</a></li>
-                <li class="active"><a href="./rooms.html">Rooms</a></li>
-                <li><a href="./about-us.html">About Us</a></li>
-                <li><a href="./pages.html">Services</a>
+                <li class="active"><a href="./rooms.php">Rooms</a></li>
+                <li><a href="./about-us.php">About Us</a></li>
+                <li><a href="./#">Services</a>
                     <ul class="dropdown">
                         <li><a href="./room-details.html">Room Details</a></li>
-                        <li><a href="rooms.html">Deluxe Room</a></li>
-                        <li><a href="rooms.html">Family Room</a></li>
-                        <li><a href="rooms.html">Premium Room</a></li>
+                        <li><a href="rooms.php">Deluxe Room</a></li>
+                        <li><a href="rooms.php">Family Room</a></li>
+                        <li><a href="rooms.php">Premium Room</a></li>
                     </ul>
                 </li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a href="./login.html">Login</a></li>
+                <li><a href="./contact.php">Contact</a></li>
+                <li><a href="./login.php">Login</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -70,7 +70,7 @@ require ("header.php");
                                 <a href="#"><i class="fa fa-tripadvisor"></i></a>
                                 <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
-                            <a href="Roombookingform.html" class="bk-btn">Booking Now</a>
+                            <a href="Roombookingform.php" class="bk-btn">Booking Now</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ require ("header.php");
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="logo">
-                            <a href="./index.html" style="height: 6em; width: 8em">
+                            <a href="./index.php" style="height: 6em; width: 8em">
                                 <img src="img/logo.png" alt="">
                             </a>
                         </div>
@@ -92,16 +92,16 @@ require ("header.php");
                             <nav class="mainmenu">
                                 <ul>
                                     <li class="active"><a href="./index.php">Home</a></li>
-                                    <li><a href="./rooms.html">Rooms</a></li>
-                                    <li><a href="./about-us.html">About Us</a></li>
-                                    <li><a href="./pages.html">Services</a>
+                                    <li><a href="./rooms.php">Rooms</a></li>
+                                    <li><a href="./about-us.php">About Us</a></li>
+                                    <li><a href="./#">Services</a>
                                         <ul class="dropdown">
                                             <li><a href="Food Module/Food.html">Catering Service</a></li>
-                                            <li><a href="./babysitting.html">BabySitting</a></li>
+                                            <li><a href="./babysitting.php">BabySitting</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./contact.html">Contact</a></li>
-                                    <li><a href="./login.html">Login</a>
+                                    <li><a href="./contact.php">Contact</a></li>
+                                    <li><a href="./login.php">Login</a>
                                 </ul>
                             </nav>
                         </div>
@@ -160,7 +160,7 @@ require ("header.php");
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="Roombookingform.html" class="primary-btn">Book Now</a>
+                            <a href="Roombookingform.php" class="primary-btn">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -190,7 +190,7 @@ require ("header.php");
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="Roombookingform.html" class="primary-btn">Book Now</a>
+                            <a href="Roombookingform.php" class="primary-btn">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -220,7 +220,7 @@ require ("header.php");
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="Roombookingform.html" class="primary-btn">Book Now</a>
+                            <a href="Roombookingform.php" class="primary-btn">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@ require ("header.php");
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="Roombookingform.html" class="primary-btn">Book Now</a>
+                            <a href="Roombookingform.php" class="primary-btn">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@ require ("header.php");
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="banquet.html" class="primary-btn">Book Now</a>
+                            <a href="banquet.php" class="primary-btn">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -310,7 +310,7 @@ require ("header.php");
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="Roombookingform.html" class="primary-btn">Book Now
+                            <a href="Roombookingform.php" class="primary-btn">Book Now
                         </div>
                     </div>
                 </div>
@@ -327,7 +327,7 @@ require ("header.php");
                     <div class="col-lg-4">
                         <div class="ft-about">
                             <div class="logo" style="margin-left: 50px;">
-                                <a href="./index.html" style="height: 6em; width: 8em">
+                                <a href="./index.php" style="height: 6em; width: 8em">
                                     <img src="img/logo.png" alt="">
                                 </a>
                             </div>

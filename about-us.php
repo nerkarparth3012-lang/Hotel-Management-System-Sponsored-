@@ -21,21 +21,21 @@ require ("header.php");
             <i class="icon_search"></i>
         </div>
         <div class="header-configure-area">
-            <a href="Roombookingform.html" class="bk-btn">Booking Now</a>
+            <a href="Roombookingform.php" class="bk-btn">Booking Now</a>
         </div>
         <nav class="mainmenu mobile-menu">
             <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./rooms.html">Rooms</a></li>
-                <li><a href="./about-us.html">About Us</a></li>
-                <li><a href="./pages.html">Services</a>
+                <li class="active"><a href="./index.php">Home</a></li>
+                <li><a href="./rooms.php">Rooms</a></li>
+                <li><a href="./about-us.php">About Us</a></li>
+                <li><a href="./#">Services</a>
                     <ul class="dropdown">
                         <li><a href="./room-details.html">Catering Service</a></li>
-                        <li><a href="./babysitting.html">BabySitting</a></li>
+                        <li><a href="./babysitting.php">BabySitting</a></li>
                     </ul>
                 </li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a href="./login.html">Login</a></li>
+                <li><a href="./contact.php">Contact</a></li>
+                <li><a href="./login.php">Login</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -71,7 +71,7 @@ require ("header.php");
                                 <a href="#"><i class="fa fa-tripadvisor"></i></a>
                                 <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
-                            <a href="Roombookingform.html" class="bk-btn">Booking Now</a>
+                            <a href="Roombookingform.php" class="bk-btn">Booking Now</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ require ("header.php");
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="logo">
-                            <a href="./index.html">
+                            <a href="./index.php">
                                 <img src="img/logo.png" alt="">
                             </a>
                         </div>
@@ -91,17 +91,17 @@ require ("header.php");
                         <div class="nav-menu">
                             <nav class="mainmenu">
                                 <ul>
-                                    <li><a href="./index.html">Home</a></li>
-                                    <li><a href="./rooms.html">Rooms</a></li>
-                                    <li class="active"><a href="./about-us.html">About Us</a></li>
-                                    <li><a href="./pages.html">Services</a>
+                                    <li><a href="./index.php">Home</a></li>
+                                    <li><a href="./rooms.php">Rooms</a></li>
+                                    <li class="active"><a href="./about-us.php">About Us</a></li>
+                                    <li><a href="./#">Services</a>
                                         <ul class="dropdown">
                                             <li><a href="Food Module/Food.html">Catering Service</a></li>
-                                            <li><a href="./babysitting.html">BabySitting</a></li>
+                                            <li><a href="./babysitting.php">BabySitting</a></li>
                                         </ul>
                                     </li>  
-                                    <li><a href="./contact.html">Contact</a></li>
-                                    <li><a href="./login.html">Login</a></li>
+                                    <li><a href="./contact.php">Contact</a></li>
+                                    <li><a href="./login.php">Login</a></li>
                                 </ul>
                             </nav>
                             <div class="nav-right search-switch">
@@ -123,7 +123,7 @@ require ("header.php");
                     <div class="breadcrumb-text">
                         <h2>About Us</h2>
                         <div class="bt-option">
-                            <a href="./index.html">Home</a>
+                            <a href="./index.php">Home</a>
                             <span>About Us</span>
                         </div>
                     </div>

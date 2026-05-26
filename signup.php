@@ -149,7 +149,7 @@ require ("header.php");
                                 <!-- <i class="fa fa-eye-slash"></i> -->
                             </div>
                             <button type="submit">Sign Up</button>
-                            <a href="./login.html"> Already Have An Account? <span> Log In </span></a>
+                            <a href="./login.php"> Already Have An Account? <span> Log In </span></a>
                         </form>
                     </div>
                 </div>

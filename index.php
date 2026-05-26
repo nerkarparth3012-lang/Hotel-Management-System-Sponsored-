@@ -23,17 +23,17 @@ require ("header.php");
         <nav class="mainmenu mobile-menu">
             <ul>
                 <li class="active"><a href="./index.php">Home</a></li>
-                <li><a href="./rooms.html">Rooms</a></li>
-                <li><a href="./about-us.html">About Us</a></li>
-                <li><a href="./pages.html">Services</a>
+                <li><a href="./rooms.php">Rooms</a></li>
+                <li><a href="./about-us.php">About Us</a></li>
+                <li><a href="./#">Services</a>
                     <ul class="dropdown">
                         <li><a href="./room-details.html">Room Details</a></li>
-                        <li><a href="rooms.html">Deluxe Room</a></li>
-                        <li><a href="rooms.html">Family Room</a></li>
-                        <li><a href="rooms.html">Premium Room</a></li>
+                        <li><a href="rooms.php">Deluxe Room</a></li>
+                        <li><a href="rooms.php">Family Room</a></li>
+                        <li><a href="rooms.php">Premium Room</a></li>
                     </ul>
                 </li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./contact.php">Contact</a></li>
                 <li><a href="./login.php">Login</a></li>
             </ul>
         </nav>
@@ -70,7 +70,7 @@ require ("header.php");
                                 <a href="#"><i class="fa fa-tripadvisor"></i></a>
                                 <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
-                            <a href="Roombookingform.html" class="bk-btn">Booking Now</a>
+                            <a href="Roombookingform.php" class="bk-btn">Booking Now</a>
                         </div>
                     </div>
                 </div>
@@ -92,15 +92,15 @@ require ("header.php");
                             <nav class="mainmenu">
                                 <ul>
                                     <li class="active"><a href="./index.php">Home</a></li>
-                                    <li><a href="./rooms.html">Rooms</a></li>
-                                    <li><a href="./about-us.html">About Us</a></li>
-                                    <li><a href="./pages.html">Services</a>
+                                    <li><a href="./rooms.php">Rooms</a></li>
+                                    <li><a href="./about-us.php">About Us</a></li>
+                                    <li><a href="./#">Services</a>
                                         <ul class="dropdown">
                                             <li><a href="Food Module/Food.html">Catering Service</a></li>
-                                            <li><a href="./babysitting.html">BabySitting</a></li>
+                                            <li><a href="./babysitting.php">BabySitting</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="./contact.php">Contact</a></li>
                                     <li><a href="./login.php">Login</a>
 
                                 </ul>
@@ -153,7 +153,7 @@ require ("header.php");
                             care."</p>
                         <p class="s-para">So when it comes to booking the perfect hotel, vacation rental, resort,
                             apartment, guest house, or tree house, we’ve got you covered.</p>
-                        <a href="about-us.html" class="primary-btn about-btn">Read More</a>
+                        <a href="about-us.php" class="primary-btn about-btn">Read More</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -252,7 +252,7 @@ require ("header.php");
                                         </tr>
                                     </tbody>
                                 </table>
-                                <a href="rooms.html" class="primary-btn">More Details</a>
+                                <a href="rooms.php" class="primary-btn">More Details</a>
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@ require ("header.php");
                                         </tr>
                                     </tbody>
                                 </table>
-                                <a href="rooms.html" class="primary-btn">More Details</a>
+                                <a href="rooms.php" class="primary-btn">More Details</a>
                             </div>
                         </div>
                     </div>
@@ -310,7 +310,7 @@ require ("header.php");
                                         </tr>
                                     </tbody>
                                 </table>
-                                <a href="rooms.html" class="primary-btn">More Details</a>
+                                <a href="rooms.php" class="primary-btn">More Details</a>
                             </div>
                         </div>
                     </div>
@@ -339,7 +339,7 @@ require ("header.php");
                                         </tr>
                                     </tbody>
                                 </table>
-                                <a href="rooms.html" class="primary-btn">More Details</a>
+                                <a href="rooms.php" class="primary-btn">More Details</a>
                             </div>
                         </div>
                     </div>
@@ -416,7 +416,7 @@ require ("header.php");
                     <div class="col-lg-4">
                         <div class="ft-about">
                             <div class="logo" style="margin-left: 50px;">
-                                <a href="./index.html" style="height: 6em; width: 8em">
+                                <a href="./index.php" style="height: 6em; width: 8em">
                                     <img src="img/logo.png" alt="">
                                 </a>
                             </div>
