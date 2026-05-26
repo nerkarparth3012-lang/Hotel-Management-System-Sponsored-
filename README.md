@@ -48,7 +48,7 @@ Dashboard URL: http://localhost:8000/Dashboard/login.php
 Customer Website URL: http://localhost:8000
 
 📂 Project Directory Structure
-text
+
 ├── Dashboard/              # Administrative dashboard files (rooms, staff, complaints)
 │   ├── css/                # Dashboard stylesheets
 │   ├── js/                 # Dashboard scripts
@@ -66,3 +66,4 @@ text
 ├── signup.php              # Customer registration portal
 ├── rooms.php               # Room details and booking page
 └── Roombookingform.php     # Booking submission portal
+
