@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body {
   background: #f1f4f7;
   padding-top: 60px;
   font-size: 14px;
   color: #444444;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 p {
@@ -1546,4 +1548,193 @@ p.back-link {
   margin-bottom: 20px;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+  Atithi SaaS Dashboard Luxury Overrides
+----------------------------------------------------------------*/
+
+body {
+    background: radial-gradient(circle at 50% 0%, #0c0f1e 0%, #060810 100%) !important;
+    color: #e2e8f0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f8fafc !important;
+    font-family: 'Playfair Display', serif !important;
+}
+
+/* Glassmorphic Navbar & Side Navigation */
+.navbar-custom {
+    background: rgba(15, 23, 42, 0.85) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25) !important;
+}
+
+.navbar-brand {
+    color: #f8fafc !important;
+    font-weight: 700 !important;
+}
+
+.navbar-brand span {
+    color: #dfa974 !important;
+}
+
+/* Sidebar Overhaul */
+.sidebar {
+    background: rgba(10, 14, 28, 0.8) !important;
+    backdrop-filter: blur(25px) !important;
+    -webkit-backdrop-filter: blur(25px) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.04) !important;
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+.sidebar ul.nav a {
+    color: #94a3b8 !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    border-radius: 8px !important;
+    margin: 4px 10px !important;
+}
+
+.sidebar ul.nav a:hover {
+    background: rgba(255, 255, 255, 0.03) !important;
+    color: #dfa974 !important;
+}
+
+.sidebar ul.nav .active a {
+    background: linear-gradient(135deg, rgba(223, 169, 116, 0.2) 0%, rgba(223, 169, 116, 0.05) 100%) !important;
+    color: #dfa974 !important;
+    border-left: 4px solid #dfa974 !important;
+    font-weight: 700 !important;
+}
+
+/* Dashboard Cards (Panels) */
+.panel {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    margin-bottom: 30px !important;
+    transition: all 0.3s ease !important;
+}
+
+.panel:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35) !important;
+    border-color: rgba(223, 169, 116, 0.2) !important;
+}
+
+.panel-heading {
+    background: rgba(255, 255, 255, 0.01) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+    color: #f8fafc !important;
+    font-weight: 700 !important;
+}
+
+.panel-body {
+    color: #cbd5e1 !important;
+}
+
+/* Glassmorphic Form Fields */
+.form-control {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+    height: 46px !important;
+    transition: all 0.3s ease !important;
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.06) !important;
+    border-color: #dfa974 !important;
+    box-shadow: 0 0 15px rgba(223, 169, 116, 0.25) !important;
+    color: #ffffff !important;
+}
+
+/* Elegant Tables */
+.table {
+    background: transparent !important;
+    color: #cbd5e1 !important;
+    border-collapse: collapse !important;
+}
+
+.table > thead > tr > th {
+    background: rgba(212, 175, 55, 0.06) !important;
+    color: #dfa974 !important;
+    border-bottom: 2px solid rgba(212, 175, 55, 0.15) !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    border-top: none !important;
+}
+
+.table > tbody > tr > td {
+    border-color: rgba(255, 255, 255, 0.04) !important;
+    vertical-align: middle !important;
+}
+
+.table > tbody > tr:hover {
+    background: rgba(255, 255, 255, 0.01) !important;
+}
+
+/* Action Buttons */
+.btn-primary, .btn-success, .btn-warning, .btn-danger {
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    transition: all 0.3s ease !important;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #dfa974 0%, #a87948 100%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 15px rgba(223, 169, 116, 0.2) !important;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #f3e5ab 0%, #dfa974 100%) !important;
+    box-shadow: 0 6px 20px rgba(223, 169, 116, 0.35) !important;
+    transform: translateY(-1px) !important;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #10b981 0%, #047857 100%) !important;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%) !important;
+}
+
+/* Calendar & Custom Widgets */
+.panel-widget .large {
+    color: #f8fafc !important;
+}
+
+.panel-widget .text-muted {
+    color: #94a3b8 !important;
+}
+
+/* Breadcrumb styling */
+.breadcrumb {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+}
+
+.breadcrumb li a {
+    color: #dfa974 !important;
+}
+
+.breadcrumb li.active {
+    color: #94a3b8 !important;
 }
